@@ -1,0 +1,32 @@
+.PHONY: help setup test lint clean generate-data run-etl
+
+help:
+	@echo "Comandos disponibles:"
+	@echo "  make setup          - Instala dependencias"
+	@echo "  make test           - Ejecuta tests"
+	@echo "  make lint           - Ejecuta linters"
+	@echo "  make generate-data  - Genera datos sintéticos"
+	@echo "  make run-etl        - Ejecuta pipeline ETL"
+	@echo "  make clean          - Limpia archivos temporales"
+
+setup:
+	python -m venv venv
+	. venv/bin/activate && pip install -r requirements-dev.txt
+
+test:
+	pytest tests/ -v --cov=src --cov-report=html
+
+lint:
+	ruff check src/ tests/
+	black --check src/ tests/
+
+generate-data:
+	python scripts/generate_sample_data.py --rows 10000
+
+run-etl:
+	python scripts/run_etl.py --file data/input/operaciones_2025.csv
+
+clean:
+	find . -type d -name "__pycache__" -exec rm -rf {} +
+	find . -type f -name "*.pyc" -delete
+	rm -rf .pytest_cache/ .coverage htmlcov/
