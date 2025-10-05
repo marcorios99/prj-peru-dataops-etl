@@ -1,0 +1,519 @@
+{
+  "pipeline_id": "etl_20251005_121328",
+  "start_time": "2025-10-05T12:13:28.280630",
+  "end_time": "2025-10-05T12:13:31.159992",
+  "input_file": "data/input/operaciones_demo_2025.csv",
+  "input_rows": 10500,
+  "validation_passed": 9322,
+  "validation_failed": 1178,
+  "validation_errors": [
+    {
+      "row": 442,
+      "column": "fecha_operacion",
+      "error": "coerce_dtype('datetime64[ns]')"
+    },
+    {
+      "row": 7668,
+      "column": "numero_operacion",
+      "error": "field_uniqueness"
+    },
+    {
+      "row": 7638,
+      "column": "numero_operacion",
+      "error": "field_uniqueness"
+    },
+    {
+      "row": 7629,
+      "column": "numero_operacion",
+      "error": "field_uniqueness"
+    },
+    {
+      "row": 7619,
+      "column": "numero_operacion",
+      "error": "field_uniqueness"
+    },
+    {
+      "row": 7615,
+      "column": "numero_operacion",
+      "error": "field_uniqueness"
+    },
+    {
+      "row": 7605,
+      "column": "numero_operacion",
+      "error": "field_uniqueness"
+    },
+    {
+      "row": 7601,
+      "column": "numero_operacion",
+      "error": "field_uniqueness"
+    },
+    {
+      "row": 7585,
+      "column": "numero_operacion",
+      "error": "field_uniqueness"
+    },
+    {
+      "row": 7575,
+      "column": "numero_operacion",
+      "error": "field_uniqueness"
+    },
+    {
+      "row": 7569,
+      "column": "numero_operacion",
+      "error": "field_uniqueness"
+    },
+    {
+      "row": 7547,
+      "column": "numero_operacion",
+      "error": "field_uniqueness"
+    },
+    {
+      "row": 7509,
+      "column": "numero_operacion",
+      "error": "field_uniqueness"
+    },
+    {
+      "row": 7505,
+      "column": "numero_operacion",
+      "error": "field_uniqueness"
+    },
+    {
+      "row": 7488,
+      "column": "numero_operacion",
+      "error": "field_uniqueness"
+    },
+    {
+      "row": 7473,
+      "column": "numero_operacion",
+      "error": "field_uniqueness"
+    },
+    {
+      "row": 7465,
+      "column": "numero_operacion",
+      "error": "field_uniqueness"
+    },
+    {
+      "row": 7644,
+      "column": "numero_operacion",
+      "error": "field_uniqueness"
+    },
+    {
+      "row": 7669,
+      "column": "numero_operacion",
+      "error": "field_uniqueness"
+    },
+    {
+      "row": 7809,
+      "column": "numero_operacion",
+      "error": "field_uniqueness"
+    },
+    {
+      "row": 7683,
+      "column": "numero_operacion",
+      "error": "field_uniqueness"
+    },
+    {
+      "row": 7802,
+      "column": "numero_operacion",
+      "error": "field_uniqueness"
+    },
+    {
+      "row": 7801,
+      "column": "numero_operacion",
+      "error": "field_uniqueness"
+    },
+    {
+      "row": 7797,
+      "column": "numero_operacion",
+      "error": "field_uniqueness"
+    },
+    {
+      "row": 7796,
+      "column": "numero_operacion",
+      "error": "field_uniqueness"
+    },
+    {
+      "row": 7794,
+      "column": "numero_operacion",
+      "error": "field_uniqueness"
+    },
+    {
+      "row": 7766,
+      "column": "numero_operacion",
+      "error": "field_uniqueness"
+    },
+    {
+      "row": 7765,
+      "column": "numero_operacion",
+      "error": "field_uniqueness"
+    },
+    {
+      "row": 7763,
+      "column": "numero_operacion",
+      "error": "field_uniqueness"
+    },
+    {
+      "row": 7753,
+      "column": "numero_operacion",
+      "error": "field_uniqueness"
+    },
+    {
+      "row": 7749,
+      "column": "numero_operacion",
+      "error": "field_uniqueness"
+    },
+    {
+      "row": 7727,
+      "column": "numero_operacion",
+      "error": "field_uniqueness"
+    },
+    {
+      "row": 7714,
+      "column": "numero_operacion",
+      "error": "field_uniqueness"
+    },
+    {
+      "row": 7701,
+      "column": "numero_operacion",
+      "error": "field_uniqueness"
+    },
+    {
+      "row": 7695,
+      "column": "numero_operacion",
+      "error": "field_uniqueness"
+    },
+    {
+      "row": 7692,
+      "column": "numero_operacion",
+      "error": "field_uniqueness"
+    },
+    {
+      "row": 7445,
+      "column": "numero_operacion",
+      "error": "field_uniqueness"
+    },
+    {
+      "row": 7441,
+      "column": "numero_operacion",
+      "error": "field_uniqueness"
+    },
+    {
+      "row": 7433,
+      "column": "numero_operacion",
+      "error": "field_uniqueness"
+    },
+    {
+      "row": 7416,
+      "column": "numero_operacion",
+      "error": "field_uniqueness"
+    },
+    {
+      "row": 7198,
+      "column": "numero_operacion",
+      "error": "field_uniqueness"
+    },
+    {
+      "row": 7187,
+      "column": "numero_operacion",
+      "error": "field_uniqueness"
+    },
+    {
+      "row": 7152,
+      "column": "numero_operacion",
+      "error": "field_uniqueness"
+    },
+    {
+      "row": 7139,
+      "column": "numero_operacion",
+      "error": "field_uniqueness"
+    },
+    {
+      "row": 7137,
+      "column": "numero_operacion",
+      "error": "field_uniqueness"
+    },
+    {
+      "row": 7131,
+      "column": "numero_operacion",
+      "error": "field_uniqueness"
+    },
+    {
+      "row": 7124,
+      "column": "numero_operacion",
+      "error": "field_uniqueness"
+    },
+    {
+      "row": 7123,
+      "column": "numero_operacion",
+      "error": "field_uniqueness"
+    },
+    {
+      "row": 7108,
+      "column": "numero_operacion",
+      "error": "field_uniqueness"
+    },
+    {
+      "row": 7100,
+      "column": "numero_operacion",
+      "error": "field_uniqueness"
+    },
+    {
+      "row": 7070,
+      "column": "numero_operacion",
+      "error": "field_uniqueness"
+    },
+    {
+      "row": 7058,
+      "column": "numero_operacion",
+      "error": "field_uniqueness"
+    },
+    {
+      "row": 7053,
+      "column": "numero_operacion",
+      "error": "field_uniqueness"
+    },
+    {
+      "row": 7035,
+      "column": "numero_operacion",
+      "error": "field_uniqueness"
+    },
+    {
+      "row": 7017,
+      "column": "numero_operacion",
+      "error": "field_uniqueness"
+    },
+    {
+      "row": 7208,
+      "column": "numero_operacion",
+      "error": "field_uniqueness"
+    },
+    {
+      "row": 7256,
+      "column": "numero_operacion",
+      "error": "field_uniqueness"
+    },
+    {
+      "row": 7271,
+      "column": "numero_operacion",
+      "error": "field_uniqueness"
+    },
+    {
+      "row": 7360,
+      "column": "numero_operacion",
+      "error": "field_uniqueness"
+    },
+    {
+      "row": 7415,
+      "column": "numero_operacion",
+      "error": "field_uniqueness"
+    },
+    {
+      "row": 7410,
+      "column": "numero_operacion",
+      "error": "field_uniqueness"
+    },
+    {
+      "row": 7403,
+      "column": "numero_operacion",
+      "error": "field_uniqueness"
+    },
+    {
+      "row": 7400,
+      "column": "numero_operacion",
+      "error": "field_uniqueness"
+    },
+    {
+      "row": 7394,
+      "column": "numero_operacion",
+      "error": "field_uniqueness"
+    },
+    {
+      "row": 7382,
+      "column": "numero_operacion",
+      "error": "field_uniqueness"
+    },
+    {
+      "row": 7356,
+      "column": "numero_operacion",
+      "error": "field_uniqueness"
+    },
+    {
+      "row": 7280,
+      "column": "numero_operacion",
+      "error": "field_uniqueness"
+    },
+    {
+      "row": 7350,
+      "column": "numero_operacion",
+      "error": "field_uniqueness"
+    },
+    {
+      "row": 7320,
+      "column": "numero_operacion",
+      "error": "field_uniqueness"
+    },
+    {
+      "row": 7310,
+      "column": "numero_operacion",
+      "error": "field_uniqueness"
+    },
+    {
+      "row": 7299,
+      "column": "numero_operacion",
+      "error": "field_uniqueness"
+    },
+    {
+      "row": 7291,
+      "column": "numero_operacion",
+      "error": "field_uniqueness"
+    },
+    {
+      "row": 7287,
+      "column": "numero_operacion",
+      "error": "field_uniqueness"
+    },
+    {
+      "row": 7808,
+      "column": "numero_operacion",
+      "error": "field_uniqueness"
+    },
+    {
+      "row": 7819,
+      "column": "numero_operacion",
+      "error": "field_uniqueness"
+    },
+    {
+      "row": 8523,
+      "column": "numero_operacion",
+      "error": "field_uniqueness"
+    },
+    {
+      "row": 8293,
+      "column": "numero_operacion",
+      "error": "field_uniqueness"
+    },
+    {
+      "row": 8285,
+      "column": "numero_operacion",
+      "error": "field_uniqueness"
+    },
+    {
+      "row": 8280,
+      "column": "numero_operacion",
+      "error": "field_uniqueness"
+    },
+    {
+      "row": 8278,
+      "column": "numero_operacion",
+      "error": "field_uniqueness"
+    },
+    {
+      "row": 8251,
+      "column": "numero_operacion",
+      "error": "field_uniqueness"
+    },
+    {
+      "row": 8236,
+      "column": "numero_operacion",
+      "error": "field_uniqueness"
+    },
+    {
+      "row": 8230,
+      "column": "numero_operacion",
+      "error": "field_uniqueness"
+    },
+    {
+      "row": 8228,
+      "column": "numero_operacion",
+      "error": "field_uniqueness"
+    },
+    {
+      "row": 8218,
+      "column": "numero_operacion",
+      "error": "field_uniqueness"
+    },
+    {
+      "row": 8203,
+      "column": "numero_operacion",
+      "error": "field_uniqueness"
+    },
+    {
+      "row": 8174,
+      "column": "numero_operacion",
+      "error": "field_uniqueness"
+    },
+    {
+      "row": 8153,
+      "column": "numero_operacion",
+      "error": "field_uniqueness"
+    },
+    {
+      "row": 8136,
+      "column": "numero_operacion",
+      "error": "field_uniqueness"
+    },
+    {
+      "row": 8127,
+      "column": "numero_operacion",
+      "error": "field_uniqueness"
+    },
+    {
+      "row": 8111,
+      "column": "numero_operacion",
+      "error": "field_uniqueness"
+    },
+    {
+      "row": 8080,
+      "column": "numero_operacion",
+      "error": "field_uniqueness"
+    },
+    {
+      "row": 8289,
+      "column": "numero_operacion",
+      "error": "field_uniqueness"
+    },
+    {
+      "row": 8298,
+      "column": "numero_operacion",
+      "error": "field_uniqueness"
+    },
+    {
+      "row": 7820,
+      "column": "numero_operacion",
+      "error": "field_uniqueness"
+    },
+    {
+      "row": 8317,
+      "column": "numero_operacion",
+      "error": "field_uniqueness"
+    },
+    {
+      "row": 8473,
+      "column": "numero_operacion",
+      "error": "field_uniqueness"
+    },
+    {
+      "row": 8471,
+      "column": "numero_operacion",
+      "error": "field_uniqueness"
+    },
+    {
+      "row": 8470,
+      "column": "numero_operacion",
+      "error": "field_uniqueness"
+    },
+    {
+      "row": 8439,
+      "column": "numero_operacion",
+      "error": "field_uniqueness"
+    }
+  ],
+  "duplicates_found": 0,
+  "duplicates_removed": 0,
+  "rows_loaded": 0,
+  "rows_updated": 0,
+  "load_failed": 0,
+  "processing_time_seconds": 2.879362,
+  "status": "failed",
+  "error_message": "Failed to load data: (pyodbc.ProgrammingError) ('String data, right truncation: length 52 buffer 46', 'HY000')\n[SQL: INSERT INTO dbo.temp_operaciones_20251005121331 (fecha_operacion, numero_operacion, tipo_operacion, monto, moneda, cuenta_origen, cuenta_destino, banco_origen, banco_destino, descripcion, estado, canal, content_hash, fecha_carga) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)]\n[parameters: [('2025-09-30 05:44:16.043113', 'OP-00005119', 'TRANSFERENCIA', 16981.59, 'PEN', '770-7749366-2-77', '885-5842509-3-81', 'BCP', 'BCP', 'Claro entrada civil espa\u00f1a valores humano.', 'COMPLETADA', 'MOBILE', '1acbf4f1293ad63e', datetime.datetime(2025, 10, 5, 12, 13, 31, 100824)), ('2025-09-29 10:47:16.043113', 'OP-00008932', 'DEPOSITO', 31074.33, 'PEN', '908-6132091-7-13', '633-8254419-6-66', 'RIPLEY', 'SCOTIABANK', 'L\u00f3pez mi hombres pesar padres militar.', 'PENDIENTE', 'WEB', '41bfeb9e493468dc', datetime.datetime(2025, 10, 5, 12, 13, 31, 100824)), ('2025-09-22 12:33:16.043113', 'OP-00008516', 'TRANSFERENCIA', 29810.87, 'PEN', '105-6489255-8-67', '210-6306584-2-24', 'FALABELLA', None, 'Quiere tan situaci\u00f3n precio momento qui\u00e9n primeros.', 'COMPLETADA', 'ATM', 'e6695021e80507f6', datetime.datetime(2025, 10, 5, 12, 13, 31, 100824)), ('2025-09-09 07:39:16.043113', 'OP-00007283', 'TRANSFERENCIA', 7816.18, 'PEN', '884-5470364-4-82', None, 'FALABELLA', 'BANBIF', 'Autoridades fuentes ni\u00f1os alta.', 'COMPLETADA', 'MOBILE', 'b12011764a1e4c33', datetime.datetime(2025, 10, 5, 12, 13, 31, 100824)), ('2025-10-03 10:02:16.043113', 'OP-00007624', 'TRANSFERENCIA', 10858.98, 'PEN', '939-2158911-6-23', '197-7554262-3-68', 'CITIBANK', 'BBVA', 'Noche ii estaba adem\u00e1s cuenta.', 'COMPLETADA', 'WEB', 'e1ce22a6756c8b8c', datetime.datetime(2025, 10, 5, 12, 13, 31, 100824)), ('2025-09-11 16:38:16.043113', 'OP-00006030', 'TRANSFERENCIA', 6464.74, 'PEN', '732-8248053-1-45', '574-2144487-7-65', 'SCOTIABANK', None, 'Color cosas media.', 'COMPLETADA', 'MOBILE', 'dd20df5f190493c4', datetime.datetime(2025, 10, 5, 12, 13, 31, 100824)), ('2025-10-02 10:35:16.043113', 'OP-00003330', 'DEPOSITO', 48239.05, 'USD', '640-4090247-4-66', None, 'PICHINCHA', 'SCOTIABANK', 'Se\u00f1ora ciento hijos seguro inter\u00e9s he profesional.', 'COMPLETADA', 'WEB', 'e6f0f3b5f78fcf5a', datetime.datetime(2025, 10, 5, 12, 13, 31, 100824)), ('2025-09-26 14:59:16.043113', 'OP-00008935', 'DEPOSITO', 8864.55, 'PEN', '207-9817044-2-92', '552-7202880-8-86', 'PICHINCHA', 'BN', 'Rodr\u00edguez reuni\u00f3n largo mayor ma\u00f1ana silencio eso pudo.', 'FALLIDA', 'MOBILE', '2413ec8ed47cea29', datetime.datetime(2025, 10, 5, 12, 13, 31, 100824))  ... displaying 10 of 9322 total bound parameter sets ...  ('2025-09-27 05:45:16.043113', 'OP-00000861', 'DEPOSITO', 30695.94, 'USD', '413-2771542-7-59', '555-4391801-5-38', 'BBVA', 'SCOTIABANK', 'Todas pensar hermano norte p\u00fablico i l\u00f3pez.', 'COMPLETADA', 'WEB', '7d19d6170e38566e', datetime.datetime(2025, 10, 5, 12, 13, 31, 100824)), ('2025-10-03 12:34:16.043113', 'OP-00007271', 'DEPOSITO', 10911.84, 'PEN', '760-8321571-1-83', '537-5366528-0-62', 'BCP', 'BCP', 'Grande electoral partes apoyo rosa uno.', 'COMPLETADA', 'MOBILE', 'b815076b0fe80546', datetime.datetime(2025, 10, 5, 12, 13, 31, 100824))]]\n(Background on this error at: https://sqlalche.me/e/20/f405)"
+}

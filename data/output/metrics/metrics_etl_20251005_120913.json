@@ -1,0 +1,18 @@
+{
+  "pipeline_id": "etl_20251005_120913",
+  "start_time": "2025-10-05T12:09:13.674509",
+  "end_time": "2025-10-05T12:09:16.704931",
+  "input_file": "data/input/operaciones_demo_2025.csv",
+  "input_rows": 10500,
+  "validation_passed": 0,
+  "validation_failed": 0,
+  "validation_errors": [],
+  "duplicates_found": 0,
+  "duplicates_removed": 0,
+  "rows_loaded": 0,
+  "rows_updated": 0,
+  "load_failed": 0,
+  "processing_time_seconds": 3.030422,
+  "status": "failed",
+  "error_message": "'[None] not found in axis'"
+}

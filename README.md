@@ -24,7 +24,7 @@ cd prj-peru-dataops-etl
 # Crear entorno virtual
 python -m venv venv
 source venv/bin/activate  # Linux/Mac
-# venv\Scripts\activate   # Windows
+# .\venv\Scripts\activate.ps1   # Windows Powershell
 
 # Instalar dependencias
 pip install -r requirements.txt

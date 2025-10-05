@@ -1,0 +1,519 @@
+{
+  "pipeline_id": "etl_20251005_121517",
+  "start_time": "2025-10-05T12:15:17.710342",
+  "end_time": "2025-10-05T12:15:20.863036",
+  "input_file": "data/input/operaciones_demo_2025.csv",
+  "input_rows": 10500,
+  "validation_passed": 9322,
+  "validation_failed": 1178,
+  "validation_errors": [
+    {
+      "row": 442,
+      "column": "fecha_operacion",
+      "error": "coerce_dtype('datetime64[ns]')"
+    },
+    {
+      "row": 7668,
+      "column": "numero_operacion",
+      "error": "field_uniqueness"
+    },
+    {
+      "row": 7638,
+      "column": "numero_operacion",
+      "error": "field_uniqueness"
+    },
+    {
+      "row": 7629,
+      "column": "numero_operacion",
+      "error": "field_uniqueness"
+    },
+    {
+      "row": 7619,
+      "column": "numero_operacion",
+      "error": "field_uniqueness"
+    },
+    {
+      "row": 7615,
+      "column": "numero_operacion",
+      "error": "field_uniqueness"
+    },
+    {
+      "row": 7605,
+      "column": "numero_operacion",
+      "error": "field_uniqueness"
+    },
+    {
+      "row": 7601,
+      "column": "numero_operacion",
+      "error": "field_uniqueness"
+    },
+    {
+      "row": 7585,
+      "column": "numero_operacion",
+      "error": "field_uniqueness"
+    },
+    {
+      "row": 7575,
+      "column": "numero_operacion",
+      "error": "field_uniqueness"
+    },
+    {
+      "row": 7569,
+      "column": "numero_operacion",
+      "error": "field_uniqueness"
+    },
+    {
+      "row": 7547,
+      "column": "numero_operacion",
+      "error": "field_uniqueness"
+    },
+    {
+      "row": 7509,
+      "column": "numero_operacion",
+      "error": "field_uniqueness"
+    },
+    {
+      "row": 7505,
+      "column": "numero_operacion",
+      "error": "field_uniqueness"
+    },
+    {
+      "row": 7488,
+      "column": "numero_operacion",
+      "error": "field_uniqueness"
+    },
+    {
+      "row": 7473,
+      "column": "numero_operacion",
+      "error": "field_uniqueness"
+    },
+    {
+      "row": 7465,
+      "column": "numero_operacion",
+      "error": "field_uniqueness"
+    },
+    {
+      "row": 7644,
+      "column": "numero_operacion",
+      "error": "field_uniqueness"
+    },
+    {
+      "row": 7669,
+      "column": "numero_operacion",
+      "error": "field_uniqueness"
+    },
+    {
+      "row": 7809,
+      "column": "numero_operacion",
+      "error": "field_uniqueness"
+    },
+    {
+      "row": 7683,
+      "column": "numero_operacion",
+      "error": "field_uniqueness"
+    },
+    {
+      "row": 7802,
+      "column": "numero_operacion",
+      "error": "field_uniqueness"
+    },
+    {
+      "row": 7801,
+      "column": "numero_operacion",
+      "error": "field_uniqueness"
+    },
+    {
+      "row": 7797,
+      "column": "numero_operacion",
+      "error": "field_uniqueness"
+    },
+    {
+      "row": 7796,
+      "column": "numero_operacion",
+      "error": "field_uniqueness"
+    },
+    {
+      "row": 7794,
+      "column": "numero_operacion",
+      "error": "field_uniqueness"
+    },
+    {
+      "row": 7766,
+      "column": "numero_operacion",
+      "error": "field_uniqueness"
+    },
+    {
+      "row": 7765,
+      "column": "numero_operacion",
+      "error": "field_uniqueness"
+    },
+    {
+      "row": 7763,
+      "column": "numero_operacion",
+      "error": "field_uniqueness"
+    },
+    {
+      "row": 7753,
+      "column": "numero_operacion",
+      "error": "field_uniqueness"
+    },
+    {
+      "row": 7749,
+      "column": "numero_operacion",
+      "error": "field_uniqueness"
+    },
+    {
+      "row": 7727,
+      "column": "numero_operacion",
+      "error": "field_uniqueness"
+    },
+    {
+      "row": 7714,
+      "column": "numero_operacion",
+      "error": "field_uniqueness"
+    },
+    {
+      "row": 7701,
+      "column": "numero_operacion",
+      "error": "field_uniqueness"
+    },
+    {
+      "row": 7695,
+      "column": "numero_operacion",
+      "error": "field_uniqueness"
+    },
+    {
+      "row": 7692,
+      "column": "numero_operacion",
+      "error": "field_uniqueness"
+    },
+    {
+      "row": 7445,
+      "column": "numero_operacion",
+      "error": "field_uniqueness"
+    },
+    {
+      "row": 7441,
+      "column": "numero_operacion",
+      "error": "field_uniqueness"
+    },
+    {
+      "row": 7433,
+      "column": "numero_operacion",
+      "error": "field_uniqueness"
+    },
+    {
+      "row": 7416,
+      "column": "numero_operacion",
+      "error": "field_uniqueness"
+    },
+    {
+      "row": 7198,
+      "column": "numero_operacion",
+      "error": "field_uniqueness"
+    },
+    {
+      "row": 7187,
+      "column": "numero_operacion",
+      "error": "field_uniqueness"
+    },
+    {
+      "row": 7152,
+      "column": "numero_operacion",
+      "error": "field_uniqueness"
+    },
+    {
+      "row": 7139,
+      "column": "numero_operacion",
+      "error": "field_uniqueness"
+    },
+    {
+      "row": 7137,
+      "column": "numero_operacion",
+      "error": "field_uniqueness"
+    },
+    {
+      "row": 7131,
+      "column": "numero_operacion",
+      "error": "field_uniqueness"
+    },
+    {
+      "row": 7124,
+      "column": "numero_operacion",
+      "error": "field_uniqueness"
+    },
+    {
+      "row": 7123,
+      "column": "numero_operacion",
+      "error": "field_uniqueness"
+    },
+    {
+      "row": 7108,
+      "column": "numero_operacion",
+      "error": "field_uniqueness"
+    },
+    {
+      "row": 7100,
+      "column": "numero_operacion",
+      "error": "field_uniqueness"
+    },
+    {
+      "row": 7070,
+      "column": "numero_operacion",
+      "error": "field_uniqueness"
+    },
+    {
+      "row": 7058,
+      "column": "numero_operacion",
+      "error": "field_uniqueness"
+    },
+    {
+      "row": 7053,
+      "column": "numero_operacion",
+      "error": "field_uniqueness"
+    },
+    {
+      "row": 7035,
+      "column": "numero_operacion",
+      "error": "field_uniqueness"
+    },
+    {
+      "row": 7017,
+      "column": "numero_operacion",
+      "error": "field_uniqueness"
+    },
+    {
+      "row": 7208,
+      "column": "numero_operacion",
+      "error": "field_uniqueness"
+    },
+    {
+      "row": 7256,
+      "column": "numero_operacion",
+      "error": "field_uniqueness"
+    },
+    {
+      "row": 7271,
+      "column": "numero_operacion",
+      "error": "field_uniqueness"
+    },
+    {
+      "row": 7360,
+      "column": "numero_operacion",
+      "error": "field_uniqueness"
+    },
+    {
+      "row": 7415,
+      "column": "numero_operacion",
+      "error": "field_uniqueness"
+    },
+    {
+      "row": 7410,
+      "column": "numero_operacion",
+      "error": "field_uniqueness"
+    },
+    {
+      "row": 7403,
+      "column": "numero_operacion",
+      "error": "field_uniqueness"
+    },
+    {
+      "row": 7400,
+      "column": "numero_operacion",
+      "error": "field_uniqueness"
+    },
+    {
+      "row": 7394,
+      "column": "numero_operacion",
+      "error": "field_uniqueness"
+    },
+    {
+      "row": 7382,
+      "column": "numero_operacion",
+      "error": "field_uniqueness"
+    },
+    {
+      "row": 7356,
+      "column": "numero_operacion",
+      "error": "field_uniqueness"
+    },
+    {
+      "row": 7280,
+      "column": "numero_operacion",
+      "error": "field_uniqueness"
+    },
+    {
+      "row": 7350,
+      "column": "numero_operacion",
+      "error": "field_uniqueness"
+    },
+    {
+      "row": 7320,
+      "column": "numero_operacion",
+      "error": "field_uniqueness"
+    },
+    {
+      "row": 7310,
+      "column": "numero_operacion",
+      "error": "field_uniqueness"
+    },
+    {
+      "row": 7299,
+      "column": "numero_operacion",
+      "error": "field_uniqueness"
+    },
+    {
+      "row": 7291,
+      "column": "numero_operacion",
+      "error": "field_uniqueness"
+    },
+    {
+      "row": 7287,
+      "column": "numero_operacion",
+      "error": "field_uniqueness"
+    },
+    {
+      "row": 7808,
+      "column": "numero_operacion",
+      "error": "field_uniqueness"
+    },
+    {
+      "row": 7819,
+      "column": "numero_operacion",
+      "error": "field_uniqueness"
+    },
+    {
+      "row": 8523,
+      "column": "numero_operacion",
+      "error": "field_uniqueness"
+    },
+    {
+      "row": 8293,
+      "column": "numero_operacion",
+      "error": "field_uniqueness"
+    },
+    {
+      "row": 8285,
+      "column": "numero_operacion",
+      "error": "field_uniqueness"
+    },
+    {
+      "row": 8280,
+      "column": "numero_operacion",
+      "error": "field_uniqueness"
+    },
+    {
+      "row": 8278,
+      "column": "numero_operacion",
+      "error": "field_uniqueness"
+    },
+    {
+      "row": 8251,
+      "column": "numero_operacion",
+      "error": "field_uniqueness"
+    },
+    {
+      "row": 8236,
+      "column": "numero_operacion",
+      "error": "field_uniqueness"
+    },
+    {
+      "row": 8230,
+      "column": "numero_operacion",
+      "error": "field_uniqueness"
+    },
+    {
+      "row": 8228,
+      "column": "numero_operacion",
+      "error": "field_uniqueness"
+    },
+    {
+      "row": 8218,
+      "column": "numero_operacion",
+      "error": "field_uniqueness"
+    },
+    {
+      "row": 8203,
+      "column": "numero_operacion",
+      "error": "field_uniqueness"
+    },
+    {
+      "row": 8174,
+      "column": "numero_operacion",
+      "error": "field_uniqueness"
+    },
+    {
+      "row": 8153,
+      "column": "numero_operacion",
+      "error": "field_uniqueness"
+    },
+    {
+      "row": 8136,
+      "column": "numero_operacion",
+      "error": "field_uniqueness"
+    },
+    {
+      "row": 8127,
+      "column": "numero_operacion",
+      "error": "field_uniqueness"
+    },
+    {
+      "row": 8111,
+      "column": "numero_operacion",
+      "error": "field_uniqueness"
+    },
+    {
+      "row": 8080,
+      "column": "numero_operacion",
+      "error": "field_uniqueness"
+    },
+    {
+      "row": 8289,
+      "column": "numero_operacion",
+      "error": "field_uniqueness"
+    },
+    {
+      "row": 8298,
+      "column": "numero_operacion",
+      "error": "field_uniqueness"
+    },
+    {
+      "row": 7820,
+      "column": "numero_operacion",
+      "error": "field_uniqueness"
+    },
+    {
+      "row": 8317,
+      "column": "numero_operacion",
+      "error": "field_uniqueness"
+    },
+    {
+      "row": 8473,
+      "column": "numero_operacion",
+      "error": "field_uniqueness"
+    },
+    {
+      "row": 8471,
+      "column": "numero_operacion",
+      "error": "field_uniqueness"
+    },
+    {
+      "row": 8470,
+      "column": "numero_operacion",
+      "error": "field_uniqueness"
+    },
+    {
+      "row": 8439,
+      "column": "numero_operacion",
+      "error": "field_uniqueness"
+    }
+  ],
+  "duplicates_found": 0,
+  "duplicates_removed": 0,
+  "rows_loaded": 0,
+  "rows_updated": 0,
+  "load_failed": 0,
+  "processing_time_seconds": 3.152694,
+  "status": "failed",
+  "error_message": "Failed to load data: (pyodbc.DataError) ('22007', '[22007] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Conversion failed when converting date and/or time from character string. (241) (SQLExecDirectW)')\n[SQL: \n            MERGE dbo.operaciones AS target\n            USING dbo.temp_operaciones_20251005121520 AS source\n            ON target.numero_operacion = source.numero_operacion\n            WHEN MATCHED THEN\n                UPDATE SET \n                    target.fecha_operacion = source.fecha_operacion,\n                    target.tipo_operacion = source.tipo_operacion,\n                    target.monto = source.monto,\n                    target.moneda = source.moneda,\n                    target.cuenta_origen = source.cuenta_origen,\n                    target.cuenta_destino = source.cuenta_destino,\n                    target.banco_origen = source.banco_origen,\n                    target.banco_destino = source.banco_destino,\n                    target.descripcion = source.descripcion,\n                    target.estado = source.estado,\n                    target.canal = source.canal,\n                    target.content_hash = source.content_hash,\n                    target.fecha_carga = source.fecha_carga\n            WHEN NOT MATCHED THEN\n                INSERT (fecha_operacion, numero_operacion, tipo_operacion, monto, moneda,\n                        cuenta_origen, cuenta_destino, banco_origen, banco_destino,\n                        descripcion, estado, canal, content_hash, fecha_carga)\n                VALUES (source.fecha_operacion, source.numero_operacion, source.tipo_operacion,\n                        source.monto, source.moneda, source.cuenta_origen, source.cuenta_destino,\n                        source.banco_origen, source.banco_destino, source.descripcion,\n                        source.estado, source.canal, source.content_hash, source.fecha_carga);\n            ]\n(Background on this error at: https://sqlalche.me/e/20/9h9h)"
+}

@@ -1,0 +1,18 @@
+{
+  "pipeline_id": "test_20251005_120659",
+  "start_time": "2025-10-05T12:06:59.696846",
+  "end_time": "2025-10-05T12:07:00.203453",
+  "input_file": "test.csv",
+  "input_rows": 1000,
+  "validation_passed": 950,
+  "validation_failed": 50,
+  "validation_errors": [],
+  "duplicates_found": 30,
+  "duplicates_removed": 30,
+  "rows_loaded": 920,
+  "rows_updated": 0,
+  "load_failed": 0,
+  "processing_time_seconds": 0.506607,
+  "status": "success",
+  "error_message": ""
+}

@@ -1,0 +1,19 @@
+development:
+  type: sqlite
+  database: data/etl_conciliacion.db
+
+sqlserver_local:
+  type: sqlserver
+  host: localhost
+  port: 1433
+  database: ETL_Conciliacion
+  trusted_connection: true
+  driver: ODBC Driver 17 for SQL Server
+
+sqlserver_remote:
+  type: sqlserver
+  host: your_server_name
+  port: 1433
+  database: ETL_Conciliacion
+  trusted_connection: true
+  driver: ODBC Driver 17 for SQL Server
